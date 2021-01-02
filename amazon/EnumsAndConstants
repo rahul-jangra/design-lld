@@ -1,0 +1,23 @@
+/**
+Following enums expected in the system
+*/
+
+public enum UserType {
+	ADMIN, USER
+}
+
+public enum ProductCategory {
+	ELECTRONICS, APPAREL, FOOTWEAR, ...etc.
+}
+
+public enum PaymentType {
+	CREDIT_CARD, ONLINE
+}
+
+public enum PaymentStatus {
+	PAYMENT_DUE, PAYMENT_ERROR, PAYMENT_COMPLETE
+}
+
+public enum OrderStatus {
+	ORDER_PLACED, ORDER_IN_TRANSIT, ORDER_COMPLETE
+}
