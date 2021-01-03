@@ -28,5 +28,5 @@ public class Member extends Customer {
   private Account account;
   private List<Order> orderHistory;
   
-  public Order checkoutCart();
+  public Order checkoutCart(PaymentMethod paymentMethod);
 }
